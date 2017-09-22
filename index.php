@@ -7,13 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-<!--
 
-Template 2075 Digital Team
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
 
-http://www.tooplate.com/view/2075-digital-team
-
--->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -45,29 +43,7 @@ http://www.tooplate.com/view/2075-digital-team
 </div>
 
 <!-- navigation section -->
-<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-				<span class="icon icon-bar"></span>
-			</button>
-			<a href="#home" class="navbar-brand smoothScroll">UniTalk</a>
-		</div>
-		<div class="collapse navbar-collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="smoothScroll">HOME</a></li>
-				<li><a href="#work" class="smoothScroll">WORK</a></li>
-				<li><a href="#about" class="smoothScroll">ABOUT</a></li>
-				<li><a href="#team" class="smoothScroll">TEAM</a></li>
-				<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
-				<li><a href="#pricing" class="smoothScroll">PRICING</a></li>
-				<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-			</ul>
-		</div>
-	</div>
-</section>
+<?php include('menu.php'); ?>
 
 <!-- home section -->
 <section id="home">
@@ -75,10 +51,10 @@ http://www.tooplate.com/view/2075-digital-team
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<h3>WEB DESIGN / WEB DEVELOPMENT / SOCIAL MEDIA</h3>
-				<h1>DIGITAL TEAM</h1>
+				<h1>TOUCH PHRASE TECHNOLOGY</h1>
 				<hr>
 				<a href="#work" class="smoothScroll btn btn-danger">What we do</a>
-				<a href="#contact" class="smoothScroll btn btn-default">Talk to us</a>
+				<a href="contact.php" class="smoothScroll btn btn-default">Talk to us</a>
 			</div>
 		</div>
 	</div>
@@ -136,7 +112,7 @@ http://www.tooplate.com/view/2075-digital-team
 </section>
 
 <!-- about section -->
-<section id="about">
+<!-- <section id="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
@@ -152,13 +128,13 @@ http://www.tooplate.com/view/2075-digital-team
 			<div class="col-md-6 col-sm-12">
 				<h3 class="bold">DIGITAL TEAM</h3>
 				<h1 class="heading bold">Best Design Agency from California</h1>
-				<!-- Nav tabs -->
+
 				<ul class="nav nav-tabs" role="tablist">
 					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESIGN</a></li>
 					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">MOBILE</a></li>
 					<li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">SOCIAL</a></li>
 				</ul>
-				<!-- tab panes -->
+
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="design">
 						<p>Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed id est tincidunt, iaculis nulla vel, sodales metus. Morbi interdum accumsan augue, in accumsan neque lacinia sed. Fusce cursus eu ligula ut gravida.</p>
@@ -177,10 +153,10 @@ http://www.tooplate.com/view/2075-digital-team
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- team section -->
-<section id="team">
+<!-- <section id="team">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
@@ -252,7 +228,7 @@ http://www.tooplate.com/view/2075-digital-team
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <!-- portfolio section -->
 <div id="portfolio">
@@ -267,36 +243,37 @@ http://www.tooplate.com/view/2075-digital-team
 				<!-- ISO section -->
 				<div class="iso-section">
 					<ul class="filter-wrapper clearfix">
-                   		 <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".martin">Martin Harris</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".barney">Barney Battles</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".michael">Michael Morgan</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".peter">Peter Friedman</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".calvin">Calvin Chan</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".amanda">Amanda Boddy</a></li>
                		</ul>
                		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
                			<div class="iso-box-wrapper col4-iso-box">
 
-               				 <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box martin col-lg-4 col-md-4 col-sm-6">
                				 	<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a>
                				 </div>
 
-               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box barney col-lg-4 col-md-4 col-sm-6">
                				 	<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a>
                				 </div>
 
-               				 <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box michael col-lg-4 col-md-4 col-sm-6">
                				 	<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a>
                				 </div>
 
-               				 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box peter col-lg-4 col-md-4 col-sm-6">
                				 	<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a>
                				 </div>
 
-               				 <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box calvin col-lg-4 col-md-4 col-sm-6">
                				 	<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a>
                				 </div>
 
-               				 <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
+               				 <div class="iso-box amanda col-lg-4 col-md-4 col-sm-6">
                				 	<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a>
                				 </div>
 
@@ -316,7 +293,7 @@ http://www.tooplate.com/view/2075-digital-team
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="section-title">
 					<strong>05</strong>
-					<h1 class="heading bold">OUR PRICING</h1>
+					<h1 class="heading bold">OUR PRODUCTS</h1>
 					<hr>
 				</div>
 			</div>
@@ -324,11 +301,10 @@ http://www.tooplate.com/view/2075-digital-team
 				<div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
 					<div class="plan_title">
 						<i class="icon-mobile medium-icon"></i>
-						<h3>BASIC</h3>
-						<h2>$150 <span>per year</span></h2>
+						<h2>Chabble</h2>
 					</div>
 					<ul>
-                    	<li>100 GB Cloud Storage</li>
+            <li>100 GB Cloud Storage</li>
 						<li>5 Pro Websites</li>
 						<li>10 Secured Emails</li>
                         <li>24-hour Support</li>
@@ -340,8 +316,7 @@ http://www.tooplate.com/view/2075-digital-team
 				<div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
 					<div class="plan_title">
 						<i class="icon-desktop medium-icon"></i>
-						<h3>BUSINESS</h3>
-						<h2>$260 <span>per year</span></h2>
+						<h2>SpecialFriends</h2>
 					</div>
 					<ul>
 						<li>200 GB Cloud Storage</li>
@@ -356,8 +331,7 @@ http://www.tooplate.com/view/2075-digital-team
 				<div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
 					<div class="plan_title">
 						<i class="icon-cloud medium-icon"></i>
-						<h3>PROFESSIONAL</h3>
-						<h2>$380 <span>per year</span></h2>
+						<h2>MonkeyChat</h2>
 					</div>
 					<ul>
 						<li>500 GB Cloud Storage</li>
@@ -373,7 +347,7 @@ http://www.tooplate.com/view/2075-digital-team
 </section>
 
 <!-- contact section -->
-<section id="contact" data-jarallax='{"speed": 0.2}'>
+<!-- <section id="contact" data-jarallax='{"speed": 0.2}'>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
@@ -415,25 +389,13 @@ http://www.tooplate.com/view/2075-digital-team
 	</div>
 </section>
 
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright © Digital Team HTML5 Template | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
-				<hr>
-				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
-					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+<section id="section-map" class="clearfix">
+	<div id="google-map" data-latitude="51.507751" data-longitude="-0.130377"></div>
+</section> -->
 
+<a href="#home" class="scrollup smoothScroll"><i class="fa fa-chevron-up"></i></a>
+
+<?php include('footer.php'); ?>
 
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jarallax.js"></script>
@@ -445,6 +407,7 @@ http://www.tooplate.com/view/2075-digital-team
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 
 </body>
 </html>
