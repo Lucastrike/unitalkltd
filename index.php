@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" src="https://use.fontawesome.com/1ba9a24d56.js">
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -43,18 +44,18 @@
 </div>
 
 <!-- navigation section -->
-<?php include('menu.php'); ?>
+<?php include('menu-index.php'); ?>
 
 <!-- home section -->
 <section id="home">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h3>WEB DESIGN / WEB DEVELOPMENT / SOCIAL MEDIA</h3>
+				<h3>OPENING A WORLD OF COMMUNICATION</h3>
 				<h1>TOUCH PHRASE TECHNOLOGY</h1>
 				<hr>
-				<a href="#work" class="smoothScroll btn btn-danger">What we do</a>
-				<a href="contact.php" class="smoothScroll btn btn-default">Talk to us</a>
+				<a href="#work" class="btn btn-danger">What we do</a>
+				<a href="contact.php" class="btn btn-default">Talk to us</a>
 			</div>
 		</div>
 	</div>
@@ -66,233 +67,76 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<div class="section-title">
-					<strong>01</strong>
+					<!-- <strong>01</strong> -->
 					<h1 class="heading bold">WHAT WE DO</h1>
 					<hr>
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-				<i class="icon-cloud medium-icon"></i>
-					<h3>WEB MARKETING</h3>
+				<i class="icon-profile-male medium-icon"></i>
+				<i class="icon-profile-female medium-icon"></i>
+					<h3>One 2 One</h3>
 					<hr>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
+					<p class="toggles">Our technology allows people to communicate face to face or over the internet without requiring a keyboard or voice. Amongst many uses an ideal Safe resource for people who have a condition where their voice or movement has become restricted. With the addition of instant translation that switches between users a perfect solution for millions of people from a variety of sectors where languages are a barrier.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
 				<i class="icon-mobile medium-icon"></i>
-					<h3>UI &amp; UX DESIGN</h3>
+					<h3>Multi-lingual Forms</h3>
 					<hr>
-					<p>Digital Team is free responsive Bootstrap v3.3.5 layout from <a rel="nofollow" href="http://www.tooplate.com" target="_parent">Tooplate</a>. Images are from <a rel="nofollow" href="http://pixabay.com" target="_parent">Pixabay</a> free photo website.</p>
+					<p class="toggles">Imagine all your forms or menus being available to your customers in a multitude of translations that can switch language between users instantly.Our patented technology takes it one stage further by also enabling a two way conversation within the form/menu allowing further opportunities and saving companies huge costs and frustrations.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-laptop medium-icon"></i>
-					<h3>ECOMMERCE</h3>
+				<i class="icon-phone medium-icon"></i>
+					<h3>Multi-lingual Text Alert</h3>
 					<hr>
-					<p>You can edit and use this template for your websites. Please tell your friends about Tooplate. Thank you for visiting our website.</p>
+					<p class="toggles">Your son has not turned up for school, your daughter has had an accident, please come quickly, my taxi hasn't turned up etc are all emergency SMS messages that are used every day. Imagine now them switching language from sender to receiver.This feature could be useful to so many sectors it could also save lives.</p>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-compass medium-icon"></i>
-					<h3>MOBILE APP</h3>
+
+			<div class="clearfix"></div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-sm-offset-2 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-lifesaver medium-icon"></i>
+					<h3>Safe Social Network</h3>
 					<hr>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
+					<p class="toggles">Incorporating our TouchPhrase technology into a social network can not only make it totally safe for young children and vulnerable adults but with the addition of a translation interface it can open instant totally accurate communication for millions of people around the world.</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
 				<i class="icon-chat medium-icon"></i>
-					<h3>SOCIAL MEDIA</h3>
+					<h3>Bolt-on Chat Room</h3>
 					<hr>
-					<p>You can easily change icons by looking at <a href="https://www.elegantthemes.com/blog/resources/how-to-use-and-embed-an-icon-font-on-your-website" target="_blank">ET Line Icons</a>. Excepteu sunt in culpa qui officia. Duis aute irure dolor in reprehenderit.</p>
+					<p class="toggles">There are many communities ,companies and organisations around the world that would love the ability to communicate with their members, customers or staff globally but language is a barrier. With our technology we can create your own chat rooms with your choice of subjects, phrases and languages and add it to your website for private or open use.</p>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
-				<i class="icon-browser medium-icon"></i>
-					<h3>RESPONSIVE LAYOUT</h3>
-					<hr>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
-			</div>
+			
 		</div>
 	</div>
 </section>
 
-<!-- about section -->
-<!-- <section id="about">
+<section id="banner" data-jarallax='{"speed": 0.2}'>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<strong>02</strong>
-					<h1 class="heading bold">OUR AGENCY</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<img src="images/about-img.jpg" class="img-responsive" alt="about img">
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<h3 class="bold">DIGITAL TEAM</h3>
-				<h1 class="heading bold">Best Design Agency from California</h1>
-
-				<ul class="nav nav-tabs" role="tablist">
-					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESIGN</a></li>
-					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">MOBILE</a></li>
-					<li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">SOCIAL</a></li>
-				</ul>
-
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active" id="design">
-						<p>Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed id est tincidunt, iaculis nulla vel, sodales metus. Morbi interdum accumsan augue, in accumsan neque lacinia sed. Fusce cursus eu ligula ut gravida.</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="mobile">
-						<p>Aenean commodo ligula eget dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-						<p><a href="#">Duis aute irure dolor</a> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="social">
-						<p>Pellentesque elementum, lacus sit amet <a href="#">hendrerit</a> posuere, quam quam tristique nisi, nec ornare ligula magna id nisl. Donec blandit enim ac semper facilisis. Curabitur eu laoreet mauris, eget fermentum velit.</p>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
-					</div>
-
-				</div>
-			</div>
-		</div>
+		<h2 class="text-center slogan">To transform the world, help people, lift others up, change lives.</h2>
 	</div>
-</section> -->
-
-<!-- team section -->
-<!-- <section id="team">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<strong>03</strong>
-					<h1 class="heading bold">TALENTED TEAM</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
-				<div class="team-wrapper">
-					<img src="images/cesco.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Cindy</h4>
-							<h3>Senior Designer</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">
-				<div class="team-wrapper">
-					<img src="images/cesco.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Mary</h4>
-							<h3>Core Developer</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/cesco.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Linda</h4>
-							<h3>Manager</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
-				<div class="team-wrapper">
-					<img src="images/cesco.jpg" class="img-responsive" alt="team img">
-						<div class="team-des">
-							<h4>Sandar</h4>
-							<h3>Accountant</h3>
-							<hr>
-							<ul class="social-icon">
-								<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
-								<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-								<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-							</ul>
-						</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- portfolio section -->
-<div id="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="section-title">
-					<strong>04</strong>
-					<h1 class="heading bold">OUR PORTFOLIO</h1>
-					<hr>
-				</div>
-				<!-- ISO section -->
-				<div class="iso-section">
-					<ul class="filter-wrapper clearfix">
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".martin">Martin Harris</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".barney">Barney Battles</a></li>
-                   		 <li><a href="#" class="opc-main-bg" data-filter=".michael">Michael Morgan</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".peter">Peter Friedman</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".calvin">Calvin Chan</a></li>
-                    	 <li><a href="#" class="opc-main-bg" data-filter=".amanda">Amanda Boddy</a></li>
-               		</ul>
-               		<div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
-               			<div class="iso-box-wrapper col4-iso-box">
-
-               				 <div class="iso-box martin col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img1.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box barney col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img2.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box michael col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img3.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box peter col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img4.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box calvin col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img5.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img5.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               				 <div class="iso-box amanda col-lg-4 col-md-4 col-sm-6">
-               				 	<a href="images/portfolio-img6.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/portfolio-img6.jpg" alt="portfolio img"></a>
-               				 </div>
-
-               			</div>
-               		</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+</section>
+<style media="screen">
+	#banner {
+		background-image: url(images/banner.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 400px;
+		padding-top: 150px;
+	}
+	.slogan {
+		font-weight: lighter;
+		color: white;
+	}
+</style>
 
 <!-- pricing section -->
-<section id="pricing">
+<section id="products">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12 text-center">
 				<div class="section-title">
-					<strong>05</strong>
 					<h1 class="heading bold">OUR PRODUCTS</h1>
 					<hr>
 				</div>
@@ -300,114 +144,77 @@
 			<div class="col-md-4 col-sm-6">
 				<div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
 					<div class="plan_title">
-						<i class="icon-mobile medium-icon"></i>
+						<img src="images/chabble.png" style="margin-bottom: 32px;" height="120px" alt="">
 						<h2>Chabble</h2>
 					</div>
-					<ul>
-            <li>100 GB Cloud Storage</li>
-						<li>5 Pro Websites</li>
-						<li>10 Secured Emails</li>
-                        <li>24-hour Support</li>
-					</ul>
-					<button class="btn btn-warning">Get it now</button>
+					<p class="adjust" style="padding: 10px;">
+					Chabble is a Revolutionary Communication and Activity platform delivered in several ways that can change the lives of people living with a condition where Speech or Movement is restricted. Our 'Assistive Technology' allows users to express daily needs, emergency situations, medical and emotional requirements, promotes cognitive development both online and offline, connecting with other people instantly via one-to-one conversations. Simple touch with one finger, (no voice or keyboard are required) Chabble is available on iOS and Android or as a Chabblet complete with hardware.
+					<!-- The Software comes with a range of other features including a Personal Album, Drawing Board, Friends and Family feature promoting Person Centered care facilitating respect and dignity , all this for just £9.99. -->
+					</p>
+
+					<a href="https://www.chabble.co.uk/"><button class="btn btn-warning">Get it now!</button></a>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
 					<div class="plan_title">
-						<i class="icon-desktop medium-icon"></i>
+						<img src="images/specialfriends-logo.png" style="margin-bottom: 15px; margin-top: -15px;" height="152px" alt="">
 						<h2>SpecialFriends</h2>
 					</div>
-					<ul>
+					<!-- <ul>
 						<li>200 GB Cloud Storage</li>
 						<li>10 Pro Websites</li>
 						<li>20 Secured Emails</li>
-                        <li>30-Minute Support</li>
-					</ul>
-					<button class="btn btn-warning">Take this!</button>
+            <li>30-Minute Support</li>
+					</ul> -->
+					<p style="padding: 10px;">
+						When Specialfriends.com was launched several years ago as a Safer Social Network for people of all abilities it attracted thousands of members from over 55 countries around the world. Its members not only felt a little safer than some other sites but it also offered them the chance to meet new friends who understood them. Specialfriends has several levels of security and a group of people who have not only built quick friendships but in some cases everlasting.
+
+						The site is currently going through a revamp to attract more likeminded people, add several new features, but at the same time keep it friendly and fun.</p>
+
+					<a href="#"><button class="btn btn-warning">Join us!</button></a>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-6">
+			<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3">
 				<div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
 					<div class="plan_title">
-						<i class="icon-cloud medium-icon"></i>
+						<!-- <i class="icon-cloud medium-icon"></i> -->
+						<img src="images/smilentalk.gif" style="margin-bottom: 37px;" height="115px" alt="">
 						<h2>MonkeyChat</h2>
 					</div>
-					<ul>
+					<!-- <ul>
 						<li>500 GB Cloud Storage</li>
 						<li>20 Pro Websites</li>
 						<li>40 Secured Emails</li>
-                        <li>Live Support</li>
-					</ul>
-					<button class="btn btn-warning">Buy Now</button>
+            <li>Live Support</li>
+					</ul> -->
+					<p class="adjust" style="padding: 10px;">
+					UniTalk are proud to partner with Keep Children Safe Online CIC a nonprofit organisation that teaches children how to stay safe on the internet. Using our protected TouchPhrase Technology we have created a safe and secure chat room for their members called 'MonkeyChat'. Children as young as 4 can enter this totally safe chat room, which is made up of pre-set phrases and enjoy talking to friends around the world about a wide range of subjects, some educational, some very silly but all within a safe and fun environment. This also educates children for when they start using other adult Social Networks.</p>
+
+					<a href="http://home.keepchildrensafeonline.com/"><button class="btn btn-warning">Have a look!</button></a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<!-- contact section -->
-<!-- <section id="contact" data-jarallax='{"speed": 0.2}'>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<strong>06</strong>
-					<h1 class="heading bold">CONTACT US</h1>
-					<hr>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12 contact-info">
-				<h2 class="heading bold">CONTACT INFO</h2>
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia deserunt mollit anim id.</p>
-				<div class="col-md-6 col-sm-4">
-					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-					<p>hello@company.com</p>
-				</div>
-				<div class="col-md-6 col-sm-4">
-					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-					<p>010-020-0340 | 090-080-0760</p>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
-					<div class="col-md-6 col-sm-6">
-						<input type="text" class="form-control" placeholder="Name" name="name">
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<input type="email" class="form-control" placeholder="Email" name="email">
-					</div>
-					<div class="col-md-12 col-sm-12">
-						<textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
-					</div>
-					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
-						<input type="submit" class="form-control" value="SEND MESSAGE">
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="section-map" class="clearfix">
-	<div id="google-map" data-latitude="51.507751" data-longitude="-0.130377"></div>
-</section> -->
-
-<a href="#home" class="scrollup smoothScroll"><i class="fa fa-chevron-up"></i></a>
+<a href="#home" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
 <?php include('footer.php'); ?>
 
 <script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jarallax.js"></script>
+<script src="js/jarallax.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
 <script src="js/isotope.js"></script>
 <script src="js/imagesloaded.min.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
-<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/smoothScroll.js"></script>
+<script type="text/javascript">
+	$('html').smoothScroll(800);
+</script>
 
 </body>
 </html>

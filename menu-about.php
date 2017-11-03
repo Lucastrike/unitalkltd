@@ -16,8 +16,8 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.php">HOME</a></li>
 				<li><a href="index.php#work">WHAT WE DO</a></li>
-				<li><a href="about.php">ABOUT</a></li>
-				<li><a href="about.php#team">TEAM</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#team">TEAM</a></li>
 				<li><a href="index.php#products">PRODUCTS</a></li>
 				<li><a href="contact.php">CONTACT</a></li>
 			</ul>

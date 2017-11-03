@@ -9,16 +9,17 @@
 			<ul class="menu-left navbar-left" style="margin-bottom: 0px; padding-left: 0px; float: left;
 		  list-style: none;">
 				<li><img src="images/logo.png" alt="unitalk" class="img-responsive logo"></li>
-				<li><a href="index.php" class="navbar-brand">UniTalk</a></li>
+				<li><a href="#home" class="navbar-brand">UniTalk</a></li>
 			</ul>
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="index.php">HOME</a></li>
-				<li><a href="index.php#work">WHAT WE DO</a></li>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#work">WHAT WE DO</a></li>
 				<li><a href="about.php">ABOUT</a></li>
+				<!-- <li><a href="#team" class="smoothScroll">TEAM</a></li> -->
 				<li><a href="about.php#team">TEAM</a></li>
-				<li><a href="index.php#products">PRODUCTS</a></li>
+				<li><a href="#products">PRODUCTS</a></li>
 				<li><a href="contact.php">CONTACT</a></li>
 			</ul>
 		</div>

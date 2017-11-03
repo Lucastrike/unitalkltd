@@ -10,8 +10,9 @@ jQuery(document).ready(function($){
       $container.imagesLoaded(function () {
 
         $container.isotope({
-        layoutMode: 'fitRows',
-        itemSelector: '.iso-box'
+          filter: '.martin',
+          layoutMode: 'fitRows',
+          itemSelector: '.iso-box'
         });
 
         $imgs.load(function(){
@@ -109,23 +110,36 @@ $(function(){
     });
   })
 
-  //Google Map
-  var get_latitude = $('#google-map').data('latitude');
-  var get_longitude = $('#google-map').data('longitude');
 
-  function initialize_google_map() {
-      var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
-      var mapOptions = {
-          zoom: 14,
-          scrollwheel: false,
-          center: myLatlng
-      };
-      var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-      var marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map
+  //WHAT WE DO
+
+  var toggleMinHeight = 85,
+      duration = 1500,
+      duration2 = 1,
+      easing = 'swing';
+  $('.toggles').each(
+      function(){
+          $(this).attr('data-height',$(this).height());
+          $(this).animate(
+              {
+                  'height' : toggleMinHeight
+              }, duration2, easing);
       });
-  }
-  google.maps.event.addDomListener(window, 'load', initialize_google_map);
+
+      $('.toggles').on('mouseover', function(){
+          $(this).stop();
+          $(this).animate(
+              {
+                  'height' : $(this).attr('data-height')
+              }, duration, easing);
+      });
+
+      $('.toggles').on('mouseout', function(){
+              $(this).stop();
+              $(this).animate(
+                  {
+                      'height' : toggleMinHeight
+                  }, duration, easing);
+          });
 
 });

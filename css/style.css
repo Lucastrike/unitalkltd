@@ -25,6 +25,7 @@ h1, h2, h3, h4 {
 
 .heading {
   font-size: 20px;
+  color: #00C6D7;
 }
 
 .subheading {
@@ -68,7 +69,7 @@ hr {
   font-size: 32px !important;
 }
 
-#work, #about, #team, #portfolio, #pricing, #contact {
+#work, #about, #team, #products, #products, #contact {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -267,7 +268,7 @@ navigation section
 ========================================================================== */
 
 .custom-navbar {
-  background: #4B4B4B;
+  background: #4B4B4B !important;
   margin-bottom: 0;
 }
 
@@ -635,40 +636,40 @@ portfolio section
 
 
 /* ==========================================================================
-pricing section
+products section
 ========================================================================== */
 
-#pricing {
+#products {
   text-align: center;
 }
 
-#pricing h2 {
+#products h2 {
   font-size: 35px;
 }
 
-#pricing h3 {
+#products h3 {
   font-size: 16px;
 }
 
-#pricing .plan {
+#products .plan {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
   padding-top: 40px;
   padding-bottom: 80px;
   margin-bottom: 32px;
 }
 
-#pricing .plan span {
+#products .plan span {
   font-size: 16px;
 }
 
-#pricing .plan .plan_title {
+#products .plan .plan_title {
   font-weight: 300;
   letter-spacing: 2px;
   padding: 30px;
   margin-bottom: 20px;
 }
 
-#pricing .medium-icon {
+#products .medium-icon {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
   border-radius: 50%;
   font-size: 52px;
@@ -679,17 +680,17 @@ pricing section
   margin-bottom: 32px;
 }
 
-#pricing .plan ul {
+#products .plan ul {
   padding: 0px;
 }
 
-#pricing .plan ul li {
+#products .plan ul li {
   display: block;
   font-weight: 500;
   padding: 12px 0px;
 }
 
-#pricing .plan .btn {
+#products .plan .btn {
   border: none;
   border-radius: 0px;
   color: #ffffff;
@@ -701,19 +702,19 @@ pricing section
   text-transform: uppercase;
 }
 
-#pricing .plan-one .btn {
+#products .plan-one .btn {
   background-color: #00c6d7;
 }
 
-#pricing .plan-two .btn {
+#products .plan-two .btn {
   background-color: #ffa400;
 }
 
-#pricing .plan-three .btn {
+#products .plan-three .btn {
   background-color: #009988;
 }
 
-#pricing .plan .btn:hover {
+#products .plan .btn:hover {
   background-color: #3B3B3B;
 }
 
@@ -868,7 +869,11 @@ media queries for mobile
   .logo {
     margin-left: 20px;
   }
+  /*.in {
+    background: #4B4B4B;
+  }*/
 }
+
 @media(max-width:215px) {
   .logo {
     margin-left: 2px;
@@ -883,7 +888,7 @@ Custom CSS
 /*for chabblet.com --> #ecf8fd*/
 
 .custom-navbar.top-nav-collapse {
-  padding: 8px;
+  padding: 4px;
   background: #4B4B4B;
   -webkit-transition: 1s;
   /* For Safari 3.1 to 6.0 */
@@ -898,7 +903,7 @@ Custom CSS
 #home, #about, #contact, #section-map, #portfolio {
   box-shadow: 0px 2px 20px 1px black;
 }
-#work, #pricing, footer, #team {
+#work, #products, footer, #team {
   box-shadow: inset 0px -2px 20px 1px black;
 }
 
@@ -938,4 +943,38 @@ ul.menu-left li {
   height: 45px;
   width: 55px;
   margin-right: 5px;
+}
+
+@media (max-width: 991px) {
+  .description {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .adjust {
+    min-height: 496px;
+  }
+}
+@media (max-width: 991px) {
+  .adjust {
+    min-height: 412px;
+  }
+}
+
+.toggles {
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: #787878;
+    }
+::-webkit-scrollbar-thumb {
+    background: #00C6D7;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+    background: #787878;
 }
